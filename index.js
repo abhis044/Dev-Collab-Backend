@@ -46,8 +46,8 @@ mongoose
 
 // router configuration
 app.use("/api/users", require("./router/userRouter"));
-app.use("/api/posts", require("./router/postRouter"));
-app.use("/api/profiles", require("./router/profileRouter"));
+// app.use("/api/posts", require("./router/postRouter"));
+// app.use("/api/profiles", require("./router/profileRouter"));
 
 
 app.listen(port, () => {
